@@ -1,0 +1,101 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Sayfa -1" id="YrYaFz2tXMWMuG-Tznma">
+    <mxGraphModel dx="948" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="750" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" parent="1" source="pqVGLGakKs65mUj7Ma4Z-1" target="pqVGLGakKs65mUj7Ma4Z-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-1" value="DC +5V, 2.75A Input" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="110" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#EBFF11;" parent="1" source="pqVGLGakKs65mUj7Ma4Z-2" target="pqVGLGakKs65mUj7Ma4Z-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="120" />
+              <mxPoint x="470" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-2" value="DC, +3.3V Regulator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="310" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;endArrow=none;strokeColor=#EBFF11;" parent="1" source="pqVGLGakKs65mUj7Ma4Z-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-3" value="STM32H723VET6&lt;div&gt;Max.:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;600mA&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="530" y="90" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;endArrow=none;strokeColor=#EBFF11;" parent="1" source="pqVGLGakKs65mUj7Ma4Z-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=none;startFill=1;startArrow=classicThin;strokeColor=light-dark(#000000,#F60404);" parent="1" source="pqVGLGakKs65mUj7Ma4Z-4" target="pqVGLGakKs65mUj7Ma4Z-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="235" />
+              <mxPoint x="270" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-4" value="CAN Transciever&lt;div&gt;MCP2562FDT-E/SN&lt;/div&gt;&lt;div&gt;Max.:70mA at VDD&lt;/div&gt;&lt;div&gt;Max.: 500μA at VDDIO&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="530" y="210" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;strokeColor=#EBFF11;" parent="1" source="pqVGLGakKs65mUj7Ma4Z-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="379.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-6" value="W25Q256JVFIQ&lt;div&gt;Max.: 25mA&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="530" y="350" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-7" value="Here3 Max.:150mA at +5V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="20" y="190" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-8" value="R12DS Max.:45mA at +5V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="20" y="220" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-9" value="BMP390&lt;div&gt;Max.:3.2&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;μA&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="550" y="530" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classicThin;startFill=1;endArrow=none;strokeColor=#EBFF11;" parent="1" source="pqVGLGakKs65mUj7Ma4Z-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-10" value="ICM-42688-P&lt;div&gt;Max.: 2mA&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="540" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;startArrow=classicThin;startFill=1;endArrow=none;strokeColor=#EBFF11;" parent="1" source="pqVGLGakKs65mUj7Ma4Z-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-11" value="GPIO&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="540" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-19" value="For +3.3V Max. consumption=600mA+70mA+25mA+2mA+3.2&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;μA&lt;/span&gt;=&lt;div&gt;697,032mA&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="30" y="290" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-20" value="For +5V Max. Consumption(without Here3 and R12DS)=500&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;μA&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="340" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;strokeColor=light-dark(#000000,#FF0000);" parent="1" source="pqVGLGakKs65mUj7Ma4Z-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="235" as="targetPoint" />
+            <mxPoint x="540" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pqVGLGakKs65mUj7Ma4Z-25" value="Max. Consumption without any GPIO: 697,532mA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="40" y="380" width="290" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
